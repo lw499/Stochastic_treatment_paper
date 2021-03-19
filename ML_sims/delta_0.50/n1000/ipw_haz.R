@@ -12,7 +12,7 @@ getDoParWorkers()
 myfunc = function(m)
 {
   options(warn=-1)
-  library(geepack);library(MASS);library(ResourceSelection);library(ltmle); library(SuperLearner)
+  library(geepack);library(MASS);library(ResourceSelection); library(SuperLearner)
   library(dplyr); library(glm2);
   library(data.table)
   #library(reshape2)  #do not use for data frame only

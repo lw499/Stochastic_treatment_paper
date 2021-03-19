@@ -11,7 +11,7 @@ getDoParWorkers()
 #for(m in 1:sim)
 myfunc = function(m)
 {
-  library(geepack);library(MASS);library(ResourceSelection);library(ltmle); library(SuperLearner)
+  library(geepack);library(MASS);library(ResourceSelection);library(SuperLearner)
   library(dplyr); library(glm2);
   library(data.table)
   #library(reshape2)  #do not use for data frame only
