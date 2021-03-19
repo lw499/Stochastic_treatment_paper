@@ -18,3 +18,5 @@ This code includes all of the functions necessary to run the results found in Se
 - parametric_models: containing codes to run various estimators described in the paper with parametric models at different sample sizes and at different delta values
 - ML_sims: containing codes to run various estimators described in the paper with machine learning methods at different sample sizes and at delta=0.5
 
+The contents of the parametric_models folder are as follows:
+- n*/delta_*/datagen.R: 
