@@ -19,4 +19,14 @@ This code includes all of the functions necessary to run the results found in Se
 - ML_sims: containing codes to run various estimators described in the paper with machine learning methods at different sample sizes and at delta=0.5
 
 The contents of the parametric_models folder are as follows:
-- n*/delta_*/datagen.R: 
+- n*/delta_*/datagen.R: code to generate the simulated datasets
+- n*/delta_*/datagen_wide_true.R: code to generate true values 
+- n*/delta_*/*method*.R: code to run the methods described in the paper (IPW, ICE, DR (weighted ICE); note that dr_wrongOR.R is an R script where outcome regression models are misspecified, and dr_wrongPS.R is an R script where propensity score models are misspecified).
+- sim_analysis: code to compare bias, SE and MSE found in the paper
+- jplusone/n*/delta*/...: contains the files to run the methods described in the paper to show J+1 multiple robustness of the weighted ICE estimator
+
+The contents of the ML_sims folder are as follows:
+- n*/delta_*/datagen.R: code to generate the simulated datasets
+- n*/delta_*/datagen_wide_true.R: code to generate true values 
+- n*/delta_*/*method*.R: code to run the methods described in the paper (IPW, ICE, DR (weighted ICE); note that dr_wrongOR.R is an R script where outcome regression models are misspecified, and dr_wrongPS.R is an R script where propensity score models are misspecified).
+
