@@ -6,7 +6,7 @@ Motivated by an application to pre-exposure prophylaxis (PrEP) initiation studie
 
 **Availability**
 
-As per data confidentiality agreements, the data cannot be made publicly available because of the sensitivity of the information. Because of this, we have also provided numerous simulations in the paper using data we have generated ourselves. 
+As per data confidentiality agreements, the data cannot be made publicly available because of the sensitivity of the information. Because of this, we have also provided numerous simulations in the paper using data we have generated ourselves. For reproducibility, we have provided the complete code to run all of the simulations and generate their results in their entirety. 
 
 **Simulated data**
 
